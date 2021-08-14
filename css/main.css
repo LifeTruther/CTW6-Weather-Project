@@ -1,0 +1,74 @@
+
+body{
+    background-image: url("https://drscdn.500px.org/photo/84778355/m%3D900/v2?sig=f8c58dfee8623c8786edb65f3a835ca81313b69bc52b2f49a5070a7bd65ffdb1");
+    background-size: cover;
+    min-height: 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: white;
+    opacity: 0.85;
+    margin-top: 3vh;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    display:flex;
+    padding-top: 3vh;
+    margin-bottom: 2vh;
+    justify-content: center;
+}
+
+.btn{
+    margin: 2vh;
+    max-width: 20vw;
+}
+
+label{
+    padding: 4px;
+}
+
+input{
+    margin: 2vh;
+}
+
+#submitButton{
+    margin: 2vh;
+}
+
+.table-responsive{
+    border-radius: 0px;
+    margin-bottom: 5vh;
+}
+
+#currtable{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+#dailytable{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+th{
+    font-size: 1rem;
+    min-width: 8vw;
+}
+
+td{
+    min-width: 8vw;
+    font-size: 1.7rem;
+}
+
+.icon{
+    min-width: 5rem;
+}
+
+.alert{
+    margin-bottom: 5vh;
+}
