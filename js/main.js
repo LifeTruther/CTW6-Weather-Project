@@ -10,8 +10,8 @@ formx.addEventListener('submit', (event) => {
     document.querySelector('.list-group').innerHTML=""
     let query_city = document.querySelector('#city');
     let query_state = document.querySelector('#state');
-    let city = event.path[0][0].value;
-    let state = event.path[0][1].value;
+    let city = event.composedPath()[0][0].value;
+    let state = event.composedPath()[0][1].value;
     console.log(event)
     console.log(`This is the data I got from User -- ${query_city.value}, ${query_state.value}`)
     
