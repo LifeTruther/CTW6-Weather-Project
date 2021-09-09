@@ -16,7 +16,7 @@ formx.addEventListener('submit', (event) => {
     console.log(`This is the data I got from User -- ${query_city.value}, ${query_state.value}`)
     
     let getLatLon = async () => {
-        let response = await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${city},${state},US&limit=1&appid=${my_token}`)
+        let response = await axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${city},${state},US&limit=1&appid=${my_token}`)
         return response.data[0]
     };
     getLatLon()
