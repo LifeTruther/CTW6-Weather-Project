@@ -1,4 +1,4 @@
-# CTW6-Weather-Project
+# Coding Temple Week 6: My Own Version of the Weather Project
 I made two calls to the openweather API. The first was triggered upon user input of city and state. 
 This call goes to the geocoding API which sent back latitude and longitude for the location. 
 A second call would is then immediately sent with those coordinates, retrieving selected information from the 'one-call' API. 
