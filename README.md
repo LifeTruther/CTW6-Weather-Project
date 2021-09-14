@@ -8,3 +8,5 @@ I then generated a table of weather data with appropriate icons and metrics, and
 
 This ended up being a pretty straightforward 1-day project. 
 It was really run to work with an API in different ways with the Javascript.
+
+See it Live: https://lifetruther.github.io/CTW6-Weather-Project/
